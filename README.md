@@ -20,3 +20,6 @@
 
 ### (2) 最小图像尺寸：
 ![image](https://user-images.githubusercontent.com/39607836/120910904-4d1c1b80-c6b5-11eb-8750-6bd7ccb78d21.png)
+
+### (3) 保存图像：
+![image](https://user-images.githubusercontent.com/39607836/120910974-bef46500-c6b5-11eb-82ee-4c088f4b38e8.png)
