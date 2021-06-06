@@ -23,3 +23,7 @@
 
 ### (3) 保存图像
 ![image](https://user-images.githubusercontent.com/39607836/120910974-bef46500-c6b5-11eb-82ee-4c088f4b38e8.png)
+
+## Task 4
+### (1) 输出图像
+![image](https://user-images.githubusercontent.com/39607836/120919259-37c1e400-c6eb-11eb-8b42-a0db3be6477c.png)
