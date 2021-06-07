@@ -3,6 +3,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import scipy.io
 
+# search point from file
 def point_search(str, index, id):
     point = []
     for i in range(len(str['anno'][0][index][0][0][2])):
@@ -11,6 +12,7 @@ def point_search(str, index, id):
                 point.append(str['anno'][0][index][0][0][2][i][j])
     return point
 
+# read information from file
 Pedestrian_Point = []
 Cyclist_Point = []
 data = scipy.io.loadmat('C:/Users/HASEE/Desktop/Pycharm_Project/data/anno.mat')
@@ -18,6 +20,7 @@ Pedestrian_Point = point_search(data, 0, 1)
 Cyclist_Point = point_search(data, 1, 2)
 print(Pedestrian_Point)
 
+# display the picture
 img1 = cv.imread('C:/Users/HASEE/Desktop/Pycharm_Project/data/images/frankfurt_000000_000294_leftImg8bit.png', 1)
 img2 = cv.imread('C:/Users/HASEE/Desktop/Pycharm_Project/data/images/frankfurt_000000_000576_leftImg8bit.png', 1)
 cv.rectangle(img1, (Pedestrian_Point[0], Pedestrian_Point[1]), (Pedestrian_Point[0]+Pedestrian_Point[2], Pedestrian_Point[1]+Pedestrian_Point[3]), (0, 255, 0), 2)
