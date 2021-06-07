@@ -3,7 +3,7 @@ import cv2 as cv
 import matplotlib.pyplot as plt
 import re
 
-
+# search point from file
 def point_search(target_str, key_str):
     num = 0
     point_store = []
@@ -33,6 +33,7 @@ def point_search(target_str, key_str):
 
     return point_store
 
+# read information from file
 Point1 = []
 Point2 = []
 str1 = 'Pedestrian'
@@ -44,20 +45,7 @@ with open('C:/Users/HASEE/Desktop/Pycharm_Project/data/annotations/frankfurt_000
 Point1 = point_search(data1, str1)
 Point2 = point_search(data2, str2)
 
-
-# data = []
-# file = open("C:/Users/HASEE/Desktop/Pycharm_Project/data/annotations/frankfurt_000000_000294_leftImg8bit.png.txt", "r")
-# for line in file:
-#     if 'Pedestrian' in line:
-#         data.append(line)
-# print(data)
-# for i in range(len(data)):
-#     for j in range(len(data[i])):
-#         if data[1][j] == ' ':
-#             num += 1
-#             print(data[1][j+1])
-# print(data[1])
-# print("length:", len(data[1]))
+# display the picture
 img1 = cv.imread('C:/Users/HASEE/Desktop/Pycharm_Project/data/images/frankfurt_000000_000294_leftImg8bit.png', 1)
 img2 = cv.imread('C:/Users/HASEE/Desktop/Pycharm_Project/data/images/frankfurt_000000_000576_leftImg8bit.png', 1)
 cv.rectangle(img1, (Point1[0], Point1[1]), (Point1[0]+Point1[2], Point1[1]+Point1[3]), (255, 0, 0), 2)
