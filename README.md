@@ -28,6 +28,10 @@
 ### 1. 输出图像
 ![image](https://user-images.githubusercontent.com/39607836/120919259-37c1e400-c6eb-11eb-8b42-a0db3be6477c.png)
 
+## Task 5
+### 1. 打印信息
+![image](https://user-images.githubusercontent.com/39607836/121060572-6926d680-c7f5-11eb-8860-689c8e3fc5f0.png)
+
 ## Task 6
 ### 1. txt文件
 #### 1.1 输出并保存图像
