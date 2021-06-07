@@ -39,5 +39,11 @@
 ![image](https://user-images.githubusercontent.com/39607836/121033722-032f5480-c7df-11eb-9a1e-ff11b810eb32.png)
 ![image](https://user-images.githubusercontent.com/39607836/121033822-18a47e80-c7df-11eb-8fee-fd1523a4a92b.png)
 
+### 3. json文件
+#### 3.1 输出并保存图像
+![image](https://user-images.githubusercontent.com/39607836/121054454-f0248080-c7ee-11eb-9aca-c32e9fd53634.png)
+![image](https://user-images.githubusercontent.com/39607836/121054528-03375080-c7ef-11eb-9b0d-76600c4e6af8.png)
+
+
 
 
