@@ -27,6 +27,8 @@ def point_search(target_str, key_str):
                 point = target_str[index_store[m]+1] + target_str[index_store[m]+2] + target_str[index_store[m]+3]
             elif diff == 4:
                 point = target_str[index_store[m]+1] + target_str[index_store[m]+2] + target_str[index_store[m]+3] + target_str[index_store[m]+4]
+            else:
+                point = -1
             point_store.append(int(point))
 
     return point_store
