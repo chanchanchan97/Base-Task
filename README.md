@@ -34,3 +34,10 @@
 ![image](https://user-images.githubusercontent.com/39607836/121024406-c5c6c900-c7d6-11eb-8b2e-f6e00a964935.png)
 ![image](https://user-images.githubusercontent.com/39607836/121024686-0a526480-c7d7-11eb-98ea-cca44bc8a54d.png)
 
+### 2. mat文件
+#### 2.1 输出并保存图像
+![image](https://user-images.githubusercontent.com/39607836/121033722-032f5480-c7df-11eb-9a1e-ff11b810eb32.png)
+![image](https://user-images.githubusercontent.com/39607836/121033822-18a47e80-c7df-11eb-8fee-fd1523a4a92b.png)
+
+
+
